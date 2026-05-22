@@ -3,7 +3,21 @@
     "allow": [
       "Bash(git remote *)",
       "Bash(git branch *)",
-      "Bash(git push *)"
+      "Bash(git push *)",
+      "Bash(npx @insforge/cli link --project-id 4e1b93a4-43ab-4c06-831b-e3ae7fd2b7ef)",
+      "Bash(npx @insforge/cli --help)",
+      "Bash(npx @insforge/cli docs auth typescript)",
+      "Bash(npx @insforge/cli db --help)",
+      "Bash(npx @insforge/cli secrets list)",
+      "Bash(npx @insforge/cli secrets get INSFORGE_BASE_URL)",
+      "Bash(npx @insforge/cli secrets get ANON_KEY)",
+      "Bash(npx @insforge/cli docs database typescript)",
+      "Bash(npx @insforge/cli docs --help)",
+      "Bash(npx @insforge/cli docs db typescript)",
+      "Bash(npx @insforge/cli db query \"CREATE TABLE IF NOT EXISTS users \\(id TEXT PRIMARY KEY, email TEXT UNIQUE NOT NULL, name TEXT, avatar_url TEXT, created_at TIMESTAMPTZ DEFAULT NOW\\(\\), updated_at TIMESTAMPTZ DEFAULT NOW\\(\\)\\);\")",
+      "Bash(npm install *)",
+      "Bash(npx @insforge/cli db tables)",
+      "Bash(npm run *)"
     ]
   }
 }
